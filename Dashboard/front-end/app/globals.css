@@ -24,43 +24,32 @@
 div ::-webkit-scrollbar {
   width: 0.35rem;
 }
-
 /* Track */
 div ::-webkit-scrollbar-track {
   background: none;
 }
-
 /* Handle */
 div ::-webkit-scrollbar-thumb {
   background: #00000024;
   border-radius: 2rem;
 }
-
 /* Handle on hover */
 div ::-webkit-scrollbar-thumb:hover {
   background: #3a3a3a74;
 }
-/* :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+
+table ::-webkit-scrollbar {
+  width: 0.35rem;
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+table ::-webkit-scrollbar-track {
+  background: none;
 }
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-} */
-
+/* Handle */
+table ::-webkit-scrollbar-thumb {
+  background: #00000024;
+  border-radius: 2rem;
+}
+/* Handle on hover */
+table ::-webkit-scrollbar-thumb:hover {
+  background: #3a3a3a74;
+}
