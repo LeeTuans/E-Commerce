@@ -52,6 +52,10 @@ function Page() {
     return () => clearTimeout(delayDebounceFn);
   }, [search]);
 
+  useEffect(() => {
+    setActive(1);
+  }, [productParams]);
+
   const handleDialog = (type = "Create", id = "") => {
     setDialog({
       open: !dialog.open,
